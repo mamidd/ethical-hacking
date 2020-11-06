@@ -3,5 +3,5 @@ inserendo l'output in un file.
 
 Es. ```./scanNetPort.sh 192.168.1 80 > res.txt```
 
-Lo script scannarizza tutti gli indirizzi ip attivi nel range 1 - 264 
+Lo script scannarizza tutti gli indirizzi ip attivi nel range 1 - 254 
 sulla porta specificata.

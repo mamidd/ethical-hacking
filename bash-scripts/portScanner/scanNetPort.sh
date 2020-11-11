@@ -16,7 +16,7 @@ fi
 ./ipsweep.sh $1 > tempIpList.txt
 
 for ip in $(cat ./tempIpList.txt); do
-nmap -sS -T4 -p $2 $ip &\
+nmap -sS -T4 -p $2 $ip
 done
 
 rm ./tempIpList.txt
